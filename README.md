@@ -9,9 +9,9 @@ def generate_password(length):
     # Define the possible characters: lowercase, uppercase, digits, and symbols
     characters = string.ascii_letters + string.digits + string.punctuation
 
-        # Randomly select characters from the pool
-      password = ''.join(random.choice(characters) for i in range(length))
-        return password
+ # Randomly select characters from the pool
+password = ''.join(random.choice(characters) for i in range(length))
+return password
 
 
 

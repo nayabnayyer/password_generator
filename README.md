@@ -1,5 +1,9 @@
 # password_generator
-This repository contains a python code for a password generator which can be run in web. 
+This repository contains a python code for a password generator which can be run in web. It imports streamlit to be run on chrome.
+
+# code 
+
+``` python
 
 import streamlit as st
 import random
